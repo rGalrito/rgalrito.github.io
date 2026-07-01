@@ -24,7 +24,7 @@ export const skills: SkillCategory[] = [
       'SAML',
       'OpenID Connect',
       'Smart Card / PKI',
-      'SAST (SonarCloud, Codacy)',
+      'SAST',
     ],
   },
   {
