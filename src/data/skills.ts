@@ -6,7 +6,7 @@ export type SkillCategory = {
 export const skills: SkillCategory[] = [
   {
     category: 'Cloud & Infrastructure',
-    items: ['AWS', 'Terraform', 'Kubernetes', 'Serverless (Lambda)', 'RHEL'],
+    items: ['AWS', 'Terraform', 'Kubernetes', 'Helm', 'ArgoCD', 'Serverless (Lambda)', 'RHEL'],
   },
   {
     category: 'Automation & IaC',
@@ -14,7 +14,7 @@ export const skills: SkillCategory[] = [
   },
   {
     category: 'Observability',
-    items: ['Grafana', 'InfluxDB', 'ELK Stack', 'Zabbix'],
+    items: ['Grafana', 'Prometheus', 'Victoria Metrics', 'InfluxDB', 'ELK Stack', 'Zabbix'],
   },
   {
     category: 'Security & IAM',
@@ -33,6 +33,6 @@ export const skills: SkillCategory[] = [
   },
   {
     category: 'Spoken Languages',
-    items: ['Portuguese (Native)', 'English (C1)'],
+    items: ['Portuguese (Native)', 'English (C2)'],
   },
 ];

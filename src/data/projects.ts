@@ -13,13 +13,6 @@ export const projects: Project[] = [
     tags: ['Ansible', 'IoT', 'Terraform'],
   },
   {
-    title: 'ML Kubernetes Platform',
-    description:
-      'Kubernetes cluster deployment for ML workloads at Smartex, tuned with the ML team for training throughput and resource efficiency.',
-    url: 'https://github.com/rGalrito',
-    tags: ['Kubernetes', 'GitLab CI/CD'],
-  },
-  {
     title: 'Edge Serverless Pipeline',
     description:
       'Event-driven AWS Lambda functions with local edge execution and offline synchronization for field devices.',
