@@ -1,0 +1,16 @@
+---
+import { profile } from '../data/profile';
+---
+
+<section class="section" id="about">
+  <div class="container narrow">
+    <h2 class="section-title">About</h2>
+    <div class="lead about-copy">
+      {
+        profile.bio.split('\n\n').map((paragraph) => (
+          <p>{paragraph}</p>
+        ))
+      }
+    </div>
+  </div>
+</section>

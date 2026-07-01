@@ -1,0 +1,47 @@
+---
+import { profile } from '../data/profile';
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="/">{profile.name.split(' ')[0]} Galrito</a>
+    <nav class="nav" aria-label="Primary">
+      <ul>
+        {
+          profile.nav.map((item) => (
+            <li>
+              <a href={item.href}>{item.label}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const header = document.querySelector('.site-header');
+  const links = document.querySelectorAll('.nav a');
+
+  const setActive = () => {
+    const scrollY = window.scrollY + 120;
+    let current = '';
+
+    document.querySelectorAll('section[id]').forEach((section) => {
+      const el = section as HTMLElement;
+      if (scrollY >= el.offsetTop) current = el.id;
+    });
+
+    links.forEach((link) => {
+      link.classList.toggle(
+        'active',
+        link.getAttribute('href') === `#${current}`,
+      );
+    });
+
+    header?.classList.toggle('scrolled', window.scrollY > 8);
+  };
+
+  window.addEventListener('scroll', setActive, { passive: true });
+  setActive();
+</script>

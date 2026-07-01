@@ -1,0 +1,29 @@
+---
+import { profile } from '../data/profile';
+---
+
+<section class="section" id="contact">
+  <div class="container narrow">
+    <h2 class="section-title">Contact</h2>
+    <p class="lead">
+      Open to conversations about DevOps, platform engineering, and infrastructure
+      roles. Reach out on LinkedIn or GitHub.
+    </p>
+    <ul class="contact-links">
+      <li>
+        <a href={profile.contact.github} target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+      </li>
+      <li>
+        <a
+          href={profile.contact.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
