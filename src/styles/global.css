@@ -262,8 +262,8 @@ img {
 
 @media (min-width: 720px) {
   .skills-row {
-    grid-template-columns: 13rem 1fr;
-    gap: 0 2rem;
+    grid-template-columns: 15rem 1fr;
+    gap: 0 1.5rem;
     align-items: baseline;
   }
 }
