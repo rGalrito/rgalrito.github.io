@@ -13,12 +13,6 @@ export const projects: Project[] = [
     tags: ['Ansible', 'IoT', 'Terraform'],
   },
   {
-    title: 'Edge Serverless Pipeline',
-    description:
-      'Event-driven AWS Lambda functions with local edge execution and offline synchronization for field devices.',
-    tags: ['AWS Lambda', 'Python', 'IoT'],
-  },
-  {
     title: 'Homelab & Side Projects',
     description:
       'Personal infrastructure experiments — k3s clusters, monitoring stacks, and automation tooling on self-hosted hardware.',
