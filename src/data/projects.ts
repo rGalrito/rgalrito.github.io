@@ -9,8 +9,8 @@ export const projects: Project[] = [
   {
     title: 'IoT Fleet Automation',
     description:
-      'Ansible roles and playbooks for consistent configuration and faster rollout across an IoT device fleet at a hardware startup.',
-    tags: ['Ansible', 'IoT', 'Terraform'],
+      'Inherited and improved Ansible roles and playbooks for consistent configuration and faster rollout across an IoT device fleet at a hardware startup.',
+    tags: ['Ansible', 'Linux', 'Observability'],
   },
   {
     title: 'Edge Config Management',
