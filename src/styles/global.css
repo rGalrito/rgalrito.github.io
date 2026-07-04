@@ -11,6 +11,7 @@
   --font-sans: 'DM Sans', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
   --max-width: 1080px;
+  --content-width: 680px;
   --header-height: 64px;
 }
 
@@ -61,7 +62,7 @@ img {
 }
 
 .narrow {
-  width: min(100% - 2rem, 680px);
+  width: min(100% - 2rem, var(--content-width));
 }
 
 .skip-link {
@@ -144,7 +145,7 @@ img {
 }
 
 .hero-inner {
-  max-width: 720px;
+  max-width: var(--content-width);
 }
 
 .hero-label {
