@@ -251,6 +251,7 @@ img {
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--text-muted);
+  line-height: 1.4;
 }
 
 .skills-row dd {
@@ -258,14 +259,6 @@ img {
   font-size: 0.95rem;
   line-height: 1.6;
   color: var(--text);
-}
-
-@media (min-width: 720px) {
-  .skills-row {
-    grid-template-columns: 15rem 1fr;
-    gap: 0 1.5rem;
-    align-items: baseline;
-  }
 }
 
 /* Tags (projects) */
