@@ -23,6 +23,6 @@ export const projects: Project[] = [
     description:
       'Personal infrastructure experiments — k3s clusters, monitoring stacks, and automation tooling on self-hosted hardware.',
     url: 'https://github.com/rGalrito',
-    tags: ['k3s', 'Grafana', 'Automation'],
+    tags: ['k3s', 'Grafana', 'ArgoCD', 'Helm Charts', 'Automation'],
   },
 ];
