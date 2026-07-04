@@ -5,19 +5,15 @@ import { skills } from '../data/skills';
 <section class="section" id="skills">
   <div class="container">
     <h2 class="section-title">Skills</h2>
-    <div class="skills-grid">
+    <dl class="skills-list">
       {
         skills.map((group) => (
-          <div class="skill-group">
-            <h3>{group.category}</h3>
-            <ul class="tags">
-              {group.items.map((item) => (
-                <li>{item}</li>
-              ))}
-            </ul>
+          <div class="skills-row">
+            <dt>{group.category}</dt>
+            <dd>{group.items.join(' · ')}</dd>
           </div>
         ))
       }
-    </div>
+    </dl>
   </div>
 </section>

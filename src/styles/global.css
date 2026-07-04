@@ -233,27 +233,41 @@ img {
   margin-top: 1.25rem;
 }
 
-/* Skills & tags */
-.skills-grid {
+/* Skills */
+.skills-list {
+  margin: 0;
   display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
 }
 
-.skill-group {
-  padding: 1.25rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
+.skills-row {
+  display: grid;
+  gap: 0.35rem;
 }
 
-.skill-group h3 {
-  margin: 0 0 0.75rem;
-  font-size: 0.95rem;
+.skills-row dt {
+  margin: 0;
+  font-size: 0.9rem;
   font-weight: 600;
+  color: var(--text-muted);
+}
+
+.skills-row dd {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
   color: var(--text);
 }
 
+@media (min-width: 720px) {
+  .skills-row {
+    grid-template-columns: 13rem 1fr;
+    gap: 0 2rem;
+    align-items: baseline;
+  }
+}
+
+/* Tags (projects) */
 .tags {
   display: flex;
   flex-wrap: wrap;
