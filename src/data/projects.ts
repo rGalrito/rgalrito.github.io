@@ -19,6 +19,12 @@ export const projects: Project[] = [
     tags: ['Salt Stack', 'GitOps', 'Remote Execution'],
   },
   {
+    title: 'MDM implementation over 600+ tablets',
+    description:
+      'Onboarded Android tablets into a centralized solution, to improve visibility, remote control and application deployment.',
+    tags: ['Esper', 'Release Management', 'Ownership'],
+  },
+  {
     title: 'Homelab & Side Projects',
     description:
       'Personal infrastructure experiments — k3s clusters, monitoring stacks, and automation tooling on self-hosted hardware.',
